@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Inter:wght@400;600;700&family=Montserrat:wght@400;500;600;700&family=Sacramento&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+body {
+  background-color: rgb(19, 24, 32);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
